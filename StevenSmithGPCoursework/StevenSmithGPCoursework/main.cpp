@@ -25,6 +25,7 @@ int main()
 	Shader shader("..//res//basicShader");
 	Shader shader2("..//res//basicShader");
 	Shader shader3("..//res//basicShader");
+
 	//Creates the textures
 	Texture texture("..//res//spaceship.png");
 	Texture texture2("..//res//planet.png");
