@@ -1,0 +1,37 @@
+﻿Build started 02-May-17 1:34:59 AM.
+     1>Project "D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\StevenSmithGPCoursework\StevenSmithGPCoursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\Steven\Desktop\stb_image.c
+         stb_image.c
+     1>c:\users\steven\desktop\stb_image.c(300): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\steven\desktop\stb_image.c(362): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\steven\desktop\stb_image.c(400): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\steven\desktop\stb_image.c(4293): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt display.cpp main.cpp mesh.cpp obj_loader.cpp shader.cpp texture.cpp
+         texture.cpp
+         shader.cpp
+         obj_loader.cpp
+     1>d:\graphicsprogramming\coursework\stevensmithgpcoursework\stevensmithgpcoursework\obj_loader.cpp(378): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         mesh.cpp
+         main.cpp
+     1>d:\graphicsprogramming\coursework\stevensmithgpcoursework\stevensmithgpcoursework\main.cpp(59): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         display.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\Debug\StevenSmithGPCoursework.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib glew32.lib glew32s.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\Debug\StevenSmithGPCoursework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\Debug\StevenSmithGPCoursework.lib" /MACHINE:X86 Debug\stb_image.obj
+         Debug\display.obj
+         Debug\main.obj
+         Debug\mesh.obj
+         Debug\obj_loader.obj
+         Debug\shader.obj
+         Debug\texture.obj
+         StevenSmithGPCoursework.vcxproj -> D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\Debug\StevenSmithGPCoursework.exe
+     1>Done Building Project "D:\GraphicsProgramming\Coursework\StevenSmithGPCoursework\StevenSmithGPCoursework\StevenSmithGPCoursework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.99
